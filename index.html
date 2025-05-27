@@ -13,6 +13,30 @@
             background-color: #f5f5f5;
             color: #333;
         }
+
+
+        nav {
+            background: #e8491d;
+            padding: 10px 0;
+        }
+        
+        nav ul {
+            padding: 0;
+            list-style: none;
+            text-align: center;
+        }
+        
+        nav li {
+            display: inline;
+            margin: 0 20px;
+        }
+        
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
         
         .container {
             max-width: 800px;
@@ -122,29 +146,29 @@
             </div>
         </div>
         
-        <div class="section">
-            <h2>Personal Details</h2>
-            <table>
-                <tr>
-                    <th>Date of Birth</th>
-                    <td>May 31, 1979</td>
-                </tr>
-                <tr>
-                    <th>Gender</th>
-                    <td>Male</td>
-                </tr>
-                <tr>
-                    <th>Nationality</th>
-                    <td>Indian</td>
-                </tr>
-                <tr>
-                    <th>Marital Status</th>
-                    <td>Married</td>
-                </tr>
-            </table>
-        </div>
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#Edu">Education</a></li>
+            <li><a href="#Exp">Experience</a></li>
+            <li><a href="#Res1">Research Interests</a></li>
+            <li><a href="#Res2">Research Publications</a></li>
+            <li><a href="#Book">Book Publication and Editors</a></li>
+            <li><a href="#skills">Technical Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+    </nav>
+
+
+<div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Myself Dr Kshirod Sarmah,Assistant Professor in the Department of Computer Science,PDUAM Amjonga,Goalpara,Assam</p>
+            <p>I am also very interested for building the entrepreneurship journey to fullfill my dreams and goals of life</p>
+        </section>
         
-        <div class="section">
+        <section id="Edu">
             <h2>Education</h2>
             <table>
                 <tr>
@@ -169,10 +193,11 @@
                     <td>2007-2001</td>
                 </tr>
             </table>
-        </div>
+        </section>
         
-        <div class="section">
-            <h2>Work Experience</h2>
+           <section id="Exp">
+
+           <h2>Work Experience</h2>
             <table>
                 <tr>
                     <th>Position</th>
@@ -190,24 +215,11 @@
                     <td>2017-Present</td>
                 </tr>
             </table>
-        </div>
-        
-        <div class="section">
-            <h2>Skills</h2>
-            <div class="skills">
-                <span class="skill">C C++ </span>
-                <span class="skill">JavaScript</span>
-                <span class="skill">Python</span>
-                <span class="skill">Java</span>
-                <span class="skill">SQL</span>
-                <span class="skill">React</span>
-                <span class="skill">Node.js</span>
-                <span class="skill">Project Management</span>
-            </div>
-        </div>
+        </section>
 
-<div class="section">
-            <h2>Research Interests</h2>
+         <section id="Res1">
+
+         <h2>Research Interests</h2>
             <ul>
                 <li>Machine Learning and Artificial Intelligence</li>
                 <li>Natural Language Processing</li>
@@ -217,12 +229,11 @@
                 <li>Computer Vision</li>
                 <li>Data Science</li>
             </ul>
-        </div>
-        
-        <div class="section">
-            <h2>Research Publications</h2>
-            
-            <h3>Journal Papers</h3>
+         </section>
+
+       <section id="Res2">
+  <h2>Research Publications</h2> 
+            <h2>Journal Papers</h2>
             <div class="research-paper">
                 <div class="paper-title">1.Integrating Honey Bee Load Balancing Algorithm with Role Based Access Control in Blockchain Technology to Minimise Response Time in Cloud Computing</div>
                 <div class="paper-authors">Daisy Sharmah, Kanak Chandra Bora, Kshirod Sarmah, Hem Chandra Das, Deepak Hajoary, Alakesh Gogoi, Mir Kashem Ali, Kabyashree Buragohain</div>
@@ -396,9 +407,7 @@ div class="research-paper">
                 <div class="paper-details">Journal of Electrical System, 20-11s (2024): pp. 2457-2466, (ISSN 1112-5209) December 2024.(Indexing Scopus, Web of Science, ISI Thomson Reuters, Impact Factor=0.70)</div>
             </div>
 
-
-
-            <h3>Conference Papers</h3>
+<h2>Conference Papers</h2>
             <div class="research-paper">
                 <div class="paper-title">1.A Multilingual Speech Database for Speaker Recognition</div>
                 <div class="paper-authors"> Utpal Bhattacharjee And Kshirod Sarmah</div>
@@ -422,8 +431,13 @@ div class="research-paper">
                 <div class="paper-authors"> Utpal Bhattacharjee And Kshirod Sarmah</div>
                 <div class="paper-details">Proc. IEEE International Conference on “Computing for Sustainable Global Development (INDIACom-2017), International Conference at New Delhi, March 2017</div>
             </div>
-            
-            <h3>Book Publications</h3>
+
+       </section>
+
+
+<section id="Book">
+
+<h2>Book Publications And Editors</h2>
             <div class="research-paper">
                 <div class="Book-title">1. Introduction to Speaker Recognition</div>
                 <div class="Book-authors">Kshirod Sarmah</div>
@@ -437,8 +451,7 @@ div class="research-paper">
                 <div class="Book-authors">Kshirod Sarmah and Sisir Kumar Rajbongshi </div>
                 <div class="Book-details">In: vol.1 Purbaion Publication, Guwahati in 2019 </div>
                 <div><a href="#" class="Book-link">ISBN: 978-93-88593-30-4 </a></div>
-            </div>
-       
+            </div>     
 
         <div class="research-paper">
                 <div class="Book-title">3. College Computer Science (Computer Networks)</div>
@@ -447,7 +460,7 @@ div class="research-paper">
                 <div><a href="#" class="Book-link">ISBN: 978-93-90942-51-0 </a></div>
             </div>
         
-	<h3>Book Editors/Co-Editors </h3>
+	<h2>Book Editors/Co-Editors </h2>
             <div class="research-paper">
                 <div class="Book-title">1. Futuristic Trends in Artificial Intelligence </div>
                 <div class="Book-Co-Editors">Kshirod Sarmah</div>
@@ -455,14 +468,12 @@ div class="research-paper">
                 <div><a href="#" class="Book-link">ISBN: 978-93-95632-70-6</a></div>
             </div>
       
-        
            <div class="research-paper">
                 <div class="Book-title">2. Futuristic Trends in Computing Technologies and Data Sciences</div>
                 <div class="Book-Co-Editors">Kshirod Sarmah</div>
                 <div class="Book-details">In: Volume 3, Book 2, 2024, IIP Proceedings </div>
                 <div><a href="#" class="Book-link">ISBN: 978-93-6252-246-7 </a></div>
             </div>
-
 
         <div class="research-paper">
                 <div class="Book-title">3. Algorithms and Complexity Theory </div>
@@ -471,10 +482,9 @@ div class="research-paper">
                 <div><a href="#" class="Book-link">ISBN: 978-81-964628-6-4 </a></div>
             </div>
 
+</section>
 
-
-        
-        <div class="section">
+        <section id="skills">
             <h2>Technical Skills</h2>
             <div class="skills">
                 <span class="skill">Python</span>
@@ -487,40 +497,35 @@ div class="research-paper">
                 <span class="skill">Data Analysis</span>
                 <span class="skill">SQL</span>
                 <span class="skill">LaTeX</span>
-            </div>
         </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+                
+                <input type="submit" value="Send Message">
+            </form>
          
-        <div class="section">
-            <h2>Languages</h2>
-            <ul>
-                <li>Assamese (Fluent)</li>
-                <li>Hindi (Intermediate)</li>
-                <li>English (Fluent)</li>
-            </ul>
-        </div>
-        
-
-         <div class="section">
-            <h2>College and Different Social Media Account Links </h2>
-            <ul>
-                <li><a href="#" class="Visit My College">https://pduamamjonga.ac.in</a></li>
-                <li><a href="#" class="Visit My Google Scholar Account">https://scholar.google.com/citations?hl=en&user=EmZdVa0AAAAJ</a></li>
-                <li><a href="#" class="Visit My Instragram Account">https://www.instagram.com/kshirodsarmah/?hl=en</a></li>
-                <li><a href="#" class="Visit My Facebook Account">https://www.facebook.com/kshirod.sarmah</a></li>
-
-            </ul>
-        </div>
+           <div class="social-icons">
+                <p>Connect with me:</p>
+                <a href="https://pduamamjonga.ac.in"><i class="My College"></i></a>
+                <a href="https://scholar.google.com/citations?hl=en&user=EmZdVa0AAAAJ"><i class="My Google Scholar Account"></i></a>
+                <a href="https://www.instagram.com/kshirodsarmah/?hl=en"><i class="My Instragram Account"></i></a>
+                <a href="https://www.facebook.com/kshirod.sarmah"><i class="My Facebook Account"></i></a>
+                <!-- Add more social media links -->
+            </div>
+   
+    <footer>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
 
 
-        <div class="section">
-            <h2>References</h2>
-            <p>Available upon request.</p>
-        </div>
-        
-        <footer>
-            <p> Total Publications: 30 (Journal: 26, Conference: 4, Books: 3,Editors of Books:3)</p>
-            <p>Last updated: May 2025</p>
-        </footer>
-    </div>
-</body>
-</html>
+
